@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+    background-color: aqua;
+}
+
+#guest {
+    color: red
+}
+
+#show_guest_list{
+    color: blue;
+}
+
+#sort_button {
+    display: none;
+}
+#show_sort_guest_list{
+    color: rgb(238, 63, 10);
+}
+#search_name{
+    margin-top: 20px;
+}
+#show_search_name{
+    color: rgb(27, 27, 26);
+}

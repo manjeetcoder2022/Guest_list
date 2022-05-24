@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <meta name="viewport" display="width=deivce-width ,intial-scale=1.0">
+    <title>Guest List</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script type="text/javascript" src="main.js"></script>
+</head>
+
+<body>
+    <h1>Guest List </h1>
+    <input type="text" placeholder="Enter Guest name" id="guest_name">
+    <button type="button" onclick="adding()" id="submit_button">Submit</button>
+    <div id="guest"></div>
+    <hr>
+    <h4>My Guest list</h4>
+    <button type="button" onclick="show()">Show list</button>
+
+    <div id="show_guest_list"></div>
+    <hr>
+
+    <button type="button" onclick="sort()" id="sort_button"> Sorted list</button>
+
+    <div id="show_sort_guest_list"></div>
+    
+    <input type="text" placeholder="Search Name" id="search_name">
+    
+    <button type="button" onclick="search()">Search</button>
+    <div id="show_search_name"></div>
+</body>
+
+
+</html>
